@@ -357,13 +357,13 @@ python3 scrapers/homes_browser.py \
 适合希望自行编写解析逻辑（使用 JavaScript），但将所有基础设施、代理管理和解锁工作交由平台处理的开发者。[网页爬虫 IDE](https://www.bright.cn/products/web-scraper/functions) 是一个基于云的无服务器环境，Bright Data 会为你处理所有扩展、调度和解锁工作。
 
 ### 2. 无代码方案：请求定制抓取工具
-适合只想获取最终整洁数据的团队或个人。你可以[请求定制抓取工具](https://brightdata.com/products/web-scraper/custom)，Bright Data 团队会为你构建、运行和维护爬虫，并按你的计划交付数据。
+适合只想获取最终整洁数据的团队或个人。你可以[请求定制抓取工具](https://www.bright.cn/products/web-scraper/studio)，Bright Data 团队会为你构建、运行和维护爬虫，并按你的计划交付数据。
 
 以下是最终对比，可帮助你为项目选择合适的解决方案：
 
 | | 第 1 部分：简单抓取 | 第 2 部分：IP/浏览器封锁 | 第 4 部分：JS/CAPTCHA 墙 | 托管式方案（购买） |
 | --- | --- | --- | --- | --- |
-| 使用的工具 | *curl_cffi* | *curl_cffi* + [住宅代理](https://www.bright.cn/proxy-types/residential-proxies) | *Playwright* + [Browser API](https://www.bright.cn/products/scraping-browser) | [网页爬虫 IDE](https://www.bright.cn/products/web-scraper/functions) / [定制抓取工具](https://brightdata.com/products/web-scraper/custom) |
+| 使用的工具 | *curl_cffi* | *curl_cffi* + [住宅代理](https://www.bright.cn/proxy-types/residential-proxies) | *Playwright* + [Browser API](https://www.bright.cn/products/scraping-browser) | [网页爬虫 IDE](https://www.bright.cn/products/web-scraper/functions) / [定制抓取工具](https://www.bright.cn/products/web-scraper/studio) |
 | 目标网站 | *mls.foreclosure.com* | *newhomesource.com*（社区） | *newhomesource.com*（房源） | 任何网站 |
 | 处理 JS 渲染 | ❌ | ❌ | ✅（自动） | ✅（托管） |
 | 破解 CAPTCHA | ❌ | ❌ | ✅（自动） | ✅（托管） |
@@ -385,4 +385,4 @@ python3 scrapers/homes_browser.py \
 
 - **对于开发者。** Fork 此仓库，了解调整这些脚本需要哪些工作。真正的挑战不在于代码，而在于持续解锁和维护。
 - **对于数据团队负责人。** 让你的团队专注于解析，而不是修补。[网页爬虫 IDE](https://www.bright.cn/products/web-scraper/functions) 是一个云端环境，你只需编写逻辑。Bright Data 会处理解锁、CAPTCHA 和基础设施。
-- **对于只需要数据的用户。** 完全跳过开发流程。你可以[请求定制数据集](https://brightdata.com/products/web-scraper/custom)，获取整洁且可直接使用的数据馈送。
+- **对于只需要数据的用户。** 完全跳过开发流程。你可以[请求定制数据集](https://www.bright.cn/products/web-scraper/studio)，获取整洁且可直接使用的数据馈送。
